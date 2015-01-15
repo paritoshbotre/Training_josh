@@ -1,6 +1,7 @@
  Changes in ~/.bashrc
  # Add git branch if its present to PS1
  # This is use for git configuration set up on your machine
+ #"""""""""""""""""""""""""""""""""""""""""""""""""""""" New Added lines
   parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
   }
