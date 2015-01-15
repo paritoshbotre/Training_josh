@@ -1,6 +1,5 @@
 def sum_of_four num1, num2, num3, num4
   sum = num1 + num2 + num3 + num4
-  #puts sum 
 end
 
 def addition_of_2 num1, num2
